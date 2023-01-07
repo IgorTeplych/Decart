@@ -8,7 +8,7 @@ namespace BTree
 {
     public class Tree
     {
-        Node _root;
+        Node _root; 
         public Tree(int size = 2)
         {
             _root = new Node(size);
