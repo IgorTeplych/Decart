@@ -13,6 +13,10 @@ namespace Decart
         {
             _root = root;
         }
+        public Treap(int key)
+        {
+            _root = new Node { Key = key, Priority = random.Next()};
+        }
         public Node Root
         {
             get { return _root; }
@@ -63,6 +67,10 @@ namespace Decart
             Split(key, Root, ref left, ref right);
             Node newNode = new Node(key, random.Next());
             return Merge(Merge(left, newNode), right);
+        }
+        public void Insert(int key)
+        {
+            _root = Add(key);
         }
         public bool Search(int x)
         {
