@@ -86,6 +86,7 @@ namespace BTree
             while(!node2.IsLeaf && count < nd.Size)
             {
                 nd.Childs[count] = node2.Childs[count + node2.Size];
+                count++;
             }
 
             node2.Capacity = node2.Size - 1;
