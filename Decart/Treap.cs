@@ -60,9 +60,29 @@ namespace Decart
         {
             Node left = null;
             Node right = null;
-            Split(key, Root, ref left, ref left);
+            Split(key, Root, ref left, ref right);
             Node newNode = new Node(key, random.Next());
             return Merge(Merge(left, newNode), right);
         }
+        public bool Search(int x)
+        {
+            return Search(x, _root);
+        }
+        bool Search(int x, Node node)
+        {
+            if (node == null)
+                return false;
+
+            if (node.Key == x)
+                return true;
+            else
+            {
+                if (x > node.Key)
+                    return Search(x, node.Right);
+                else
+                    return Search(x, node.Left);
+            }
+        }
+
     }
 }

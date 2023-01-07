@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decart", "Decart\Decart.csproj", "{7B45E6CB-7A0D-4E2E-B5FC-B1E3D10AD75F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decart", "Decart\Decart.csproj", "{7B45E6CB-7A0D-4E2E-B5FC-B1E3D10AD75F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTree", "BTree\BTree.csproj", "{6D6C771A-1A20-43EC-9EBF-7BD8D30BDF39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreesTests", "TreesTests\TreesTests.csproj", "{B3602586-3EF3-4A86-BA33-B627940914BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7B45E6CB-7A0D-4E2E-B5FC-B1E3D10AD75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B45E6CB-7A0D-4E2E-B5FC-B1E3D10AD75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B45E6CB-7A0D-4E2E-B5FC-B1E3D10AD75F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6C771A-1A20-43EC-9EBF-7BD8D30BDF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6C771A-1A20-43EC-9EBF-7BD8D30BDF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6C771A-1A20-43EC-9EBF-7BD8D30BDF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6C771A-1A20-43EC-9EBF-7BD8D30BDF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3602586-3EF3-4A86-BA33-B627940914BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3602586-3EF3-4A86-BA33-B627940914BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3602586-3EF3-4A86-BA33-B627940914BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3602586-3EF3-4A86-BA33-B627940914BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
